@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.frame {
+  border: 3px solid turquoise;
+}
+header {
+  height: 200px;
+}
+#title {
+  font-size: x-large;
+}
+.fa-times {
+  margin: 50px;
+  size: 100px;
+}
+p {
+  align-items: center;
+}
+.fa-image {
+  background-color: yellow;
+  border: 3px solid black;
+  size: 100ch;
+}
+.fa-heart,
+.fa-plus {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 90%;
+}
+
+#red {
+  background-color: red;
+}
+#pink {
+  background-color: pink;
+}
+#blue {
+  background-color: blue;
+}
+#turquoise {
+  background-color: turquoise;
+}
+li {
+  display: flex;
+  list-style: none;
+}
+li span {
+  margin-right: 5px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 25%;
+}
